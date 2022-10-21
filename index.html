@@ -1,769 +1,1224 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en-US"  class="supernova"><head><script>console.warn("Server Side Rendering => render-from: frontend");</script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=https%3A%2F%2Fform.jotform.com%2F221447259955062" title="oEmbed Form">
-<link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=https%3A%2F%2Fform.jotform.com%2F221447259955062" title="oEmbed Form">
-<meta property="og:title" content="Ridly Enquiry" >
-<meta property="og:url" content="https://form.jotform.com/221447259955062" >
-<meta property="og:description" content="Please click the link to complete this form." >
-<meta name="slack-app-id" content="AHNMASS8M">
-<link rel="shortcut icon" href="https://cdn.jotfor.ms/assets/img/favicons/favicon-2021.svg">
-<meta property="og:image" content="https://cdn.jotfor.ms/assets/img/favicons/favicon-2021.svg" />
-<link rel="canonical" href="https://form.jotform.com/221447259955062" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
-<meta name="HandheldFriendly" content="true" />
-<title>Ridly Enquiry</title>
-<style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
-<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251"/>
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.36456" />
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.36456" />
-<style type="text/css" id="form-designer-style">
-    /* Injected CSS Code */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-.form-all {
-  font-family: "Inter", sans-serif;
-}
-.main .jotform-form {
-  width: 100%;
-  padding: 0 3%;
-}
-.form-all {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 752px;
-}
-.form-line-active {
-  background-color: #ffffff;
-}
-.form-all {
-  font-size: 14px;
-}
-.form-label {
-  position: relative;
-}
-.form-label:after {
-  content: 'This label will not be seen on the form.';
-  background: #FFFFE0;
-  position: absolute;
-  left: 0;
-  top: 110%;
-  width: 90px;
-  opacity: 0;
-  padding: 6px 9px 8px;
-  border-radius: 3px;
-  font-size: 10px;
-  font-weight: normal;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-.form-label:hover:after {
-  opacity: 0.8;
-}
-.supernova .form-label {
-  display: none;
-}
-.supernova .form-label:after {
-  display: none;
-}
-li.form-line {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-.form-line {
-  padding: 4px 0px;
-}
-.form-section {
-  padding: 0px 38px;
-}
-.form-textbox,
-.form-textarea,
-li[data-type=control_fileupload] .qq-upload-button,
-.signature-wrapper {
-  border-color: rgba(14, 127, 92, 0.5);
-}
-.form-textarea:hover,
-.form-textbox:hover,
-li[data-type=control_fileupload] .qq-upload-button:hover,
-.signature-wrapper:hover {
-  border-color: rgba(14, 127, 92, 0.5);
-  box-shadow: 0 0 0 2px rgba(14, 127, 92, 0.25);
-}
-.form-textarea:focus,
-.form-textbox:focus,
-li[data-type=control_fileupload] .qq-upload-button:focus,
-.signature-wrapper:focus {
-  border-color: #0e7f5c;
-  box-shadow: 0 0 0 3px rgba(14, 127, 92, 0.25);
-}
-.form-textbox,
-.form-textarea,
-.form-radio-other-input,
-.form-checkbox-other-input,
-.form-captcha input,
-.form-spinner input {
-  background-color: #ffffff;
-}
-li[data-type="control_textbox"] div[data-layout="half"],
-li[data-type="control_dropdown"] div[data-layout="half"],
-li[data-type="control_email"] div[data-layout="half"],
-li[data-type="control_number"] div[data-layout="half"],
-li[data-type="control_phone"] div[data-layout="half"],
-li[data-type="control_datetime"] div[data-layout="half"],
-li[data-type="control_signature"] div[data-layout="half"] {
-  width: 100% !important;
-  max-width: 503px;
-}
-.form-label {
-  font-family: "Inter", sans-serif;
-}
-.form-line-column {
-  width: calc(50% - 8px);
-}
-.form-checkbox-item label,
-.form-checkbox-item span,
-.form-radio-item label,
-.form-radio-item span {
-  color: #1a1a1a;
-}
-.form-radio-item,
-.form-checkbox-item {
-  padding-bottom: 0px !important;
-}
-.form-radio-item:last-child,
-.form-checkbox-item:last-child {
-  padding-bottom: 0;
-}
-.form-single-column .form-checkbox-item,
-.form-single-column .form-radio-item {
-  width: 100%;
-}
-.form-checkbox-item .editor-container div,
-.form-radio-item .editor-container div {
-  position: relative;
-}
-.form-checkbox-item .editor-container div:before,
-.form-radio-item .editor-container div:before {
-  display: inline-block;
-  vertical-align: middle;
-  left: 0;
-  width: 20px;
-  height: 20px;
-}
-.submit-button {
-  font-size: 14px;
-  font-weight: normal;
-  width: 112px;
-  font-family: "Inter", sans-serif;
-  border: none;
-  border-width: 0px;
-  border-style: solid;
-  border-color: #0e7f5c;
-}
-.submit-button {
-  min-width: 180px;
-}
-.form-buttons-wrapper,
-.form-submit-clear-wrapper {
-  justify-content: flex-start;
-}
-.form-all .form-pagebreak-back,
-.form-all .form-pagebreak-next {
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-}
-.form-all .form-pagebreak-back,
-.form-all .form-pagebreak-next {
-  min-width: 128px;
-}
-li[data-type="control_image"] div {
-  text-align: left;
-}
-li[data-type="control_image"] img {
-  border: none;
-  border-width: 0px !important;
-  border-style: solid !important;
-  border-color: false !important;
-}
-.supernova {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center top;
-  background-repeat: repeat;
-}
-.supernova {
-  background-image: none;
-}
-#stage {
-  background-image: none;
-}
-/* | */
-.form-all {
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center top;
-  background-repeat: repeat;
-}
-.form-header-group {
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center top;
-}
-.header-large h1.form-header {
-  font-size: 2em;
-}
-.header-large h2.form-header {
-  font-size: 1.5em;
-}
-.header-large h3.form-header {
-  font-size: 1.17em;
-}
-.header-large h1 + .form-subHeader {
-  font-size: 1em;
-}
-.header-large h2 + .form-subHeader {
-  font-size: .875em;
-}
-.header-large h3 + .form-subHeader {
-  font-size: .75em;
-}
-.header-default h1.form-header {
-  font-size: 2em;
-}
-.header-default h2.form-header {
-  font-size: 1.5em;
-}
-.header-default h3.form-header {
-  font-size: 1.17em;
-}
-.header-default h1 + .form-subHeader {
-  font-size: 1em;
-}
-.header-default h2 + .form-subHeader {
-  font-size: .875em;
-}
-.header-default h3 + .form-subHeader {
-  font-size: .75em;
-}
-.header-small h1.form-header {
-  font-size: 2em;
-}
-.header-small h2.form-header {
-  font-size: 1.5em;
-}
-.header-small h3.form-header {
-  font-size: 1.17em;
-}
-.header-small h1 + .form-subHeader {
-  font-size: 1em;
-}
-.header-small h2 + .form-subHeader {
-  font-size: .875em;
-}
-.header-small h3 + .form-subHeader {
-  font-size: .75em;
-}
-.form-header-group {
-  text-align: left;
-}
-.form-header-group {
-  font-family: "Inter", sans-serif;
-}
-div.form-header-group.header-large {
-  margin: 0px -38px;
-}
-div.form-header-group.header-large {
-  padding: 40px 52px;
-}
-.form-header-group .form-header,
-.form-header-group .form-subHeader {
-  color: 0;
-}
-.form-line-error {
-  overflow: hidden;
-  -webkit-transition-property: none;
-  -moz-transition-property: none;
-  -ms-transition-property: none;
-  -o-transition-property: none;
-  transition-property: none;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease;
-  -moz-transition-timing-function: ease;
-  -ms-transition-timing-function: ease;
-  -o-transition-timing-function: ease;
-  transition-timing-function: ease;
-  background-color: #ffffff;
-}
-.form-line-error .form-error-message {
-  background-color: #ea9697;
-  clear: both;
-  float: none;
-}
-.form-line-error .form-error-message .form-error-arrow {
-  border-bottom-color: #ea9697;
-}
-.form-line-error input:not(#coupon-input),
-.form-line-error textarea,
-.form-line-error .form-validation-error {
-  border: 1px solid #ea9697;
-  box-shadow: 0 0 3px #ea9697;
-}
-.supernova {
-  background-color: #ffffff;
-}
-.supernova body {
-  background-color: transparent;
-}
-.supernova .form-all,
-.form-all {
-  background-color: #ffffff;
-}
-.form-textbox,
-.form-textarea,
-.form-radio-other-input,
-.form-checkbox-other-input,
-.form-captcha input,
-.form-spinner input {
-  background-color: #ffffff;
-}
-.form-matrix-table tr {
-  border-color: #e6e6e6;
-}
-.form-matrix-table tr:nth-child(2n) {
-  background-color: #f2f2f2;
-}
-.form-all {
-  color: #000000;
-}
-.form-label-top,
-.form-label-left,
-.form-label-right,
-.form-html {
-  color: #000000;
-}
-.form-line-error {
-  overflow: hidden;
-  -webkit-transition-property: none;
-  -moz-transition-property: none;
-  -ms-transition-property: none;
-  -o-transition-property: none;
-  transition-property: none;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -ms-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease;
-  -moz-transition-timing-function: ease;
-  -ms-transition-timing-function: ease;
-  -o-transition-timing-function: ease;
-  transition-timing-function: ease;
-  background-color: #ffffff;
-}
-.form-header-group .form-header,
-.form-header-group .form-subHeader {
-  color: 0;
-}
-
-/*__INSPECT_SEPERATOR__*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-.form-all * {
-    font-family : 'Poppins', sans-serif;
-}
-
-.error-navigation-container .error-navigation-inner .error-navigation-message {
-    opacity : 0;
-    display : none !important;
-}
-
-.error-navigation-next-button .error-navigation-done-button {
-    opacity : 0;
-    display : none !important;
-}
-
-.error-navigation-container {
-    display : none;
-}
-
-.form-error-message {
-    padding : 0px !important;
-    background-color : #FFFFFF !important;
-    color : #f23a3c !important;
-}
-
-.error-navigation-message {
-    font-size : 11px !important;
-}
-
-.form-header-group.header-large {
-    display : none;
-}
-
-.form-section.page-section {
-    box-shadow : none;
-    padding : 0px;
-    border : 0px;
-    margin : 0;
-}
-
-.form-textbox {
-    border-width : 0 0 1px!important;
-    padding-left : 0px!important;
-    width : 100% !important;
-}
-
-.form-textarea.custom-hint-group {
-    border-style : solid;
-    border-width : 0 0 1px;
-    height : 80px !important;
-    padding-left : 0px !important;
-    padding-right : 0px !important;
-}
-
-.form-textarea.custom-hint-group:focus, .form-textarea.custom-hint-group:hover {
-    box-shadow : none !important;
-    border-color : rgba(14, 127, 92, 0.5);
-}
-
-.form-validation-error {
-    border-width : 0 0 1px !important;
-    box-shadow : None !important;
-}
-
-.qq-upload-button.None {
-    border : solid 1px #ccc;
-}
-
-.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField {
-    padding : 16px 32px;
-    border-radius : 100px;
-    background-color : #0b5d51;
-    font-size : 18px;
-    font-weight : 600;
-    min-width : 100% !important;
-    margin-left : 0px !important;
-}
-
-.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:hover {
-    background-color : #0e7f5c;
-}
-
-#cid_2 div.form-buttons-wrapper {
-    width : 100%;
-    margin-left : 0px;
-    border : none;
-    padding : 12px 0px;
-}
-
-.form-all {
-    box-shadow : none;
-}
-
-div.qq-upload-button {
-    height : 80px !important;
-    font-size : 16px !important;
-    padding : 16px 24px !important;
-}
-
-.qq-upload-button::before {
-    display : none;
-}
-
-#cid_8 div.jfUpload-heading {
-    font-size : 11px;
-    color : #0e7f5c;
-    opacity : 0.9;
-}
-
-.qq-upload-file {
-    background-color : #ddeee5 !important;
-}
-
-.qq-upload-size {
-    background-color : #ddeee5 !important;
-}
-
-.qq-upload-img-container {
-    background-color : #ddeee5 !important;
-}
-
-.qq-upload-delete {
-    background-color : #ddeee5 !important;
-    color : #55A58C;
-}
-
-.qq-upload-delete:hover {
-    color : #0E7F5C;
-}
-
-.qq-upload-failed-text {
-    background-color : #ddeee5 !important;
-}
-
-.qq-upload-cancel {
-    background-color : #ddeee5 !important;
-}
-
-.form-textbox:hover, .form-textbox:focus {
-    box-shadow : none !important;
-    border-width : 0 0 1px !important;
-    border-color : rgba(14, 127, 92, 0.5);
-    padding-left : 0px !important;
-    width : 100% !important;
-}
-
-#text_12 {
-    margin-top : -8px;
-}
-
-.sub-label {
-    padding : 0px;
-}
-
-.qq-upload-drop-area {
-    border : 1px solid #c3cad8 !important;
-    height : 80px !important;
-    font-size : 16px!important;
-}
-
-#cid_8 div.qq-upload-button {
-
-}
-
-.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:hover {
-    background-color : #0e7f5c;
-}
-
-@media (min-width: 664px){
-    .form-submit-button.submit-button.jf-form-buttons.jsTest-submitField {
-        width : auto !important;
-    }
-
-}
-
-#input_2 {
-
-}
-
-.qq-upload-list>li {
-    margin-top : 7px !important;
-    height : 32px !important;
-    line-height : 32px !important;
-    font-size : 12px !important;
-}
-
-.qq-upload-img-container {
-    padding : 6px !important;
-}
-
-.qq-upload-img-container>img {
-    width : 20px !important;
-    height : 20px !important;
-}
-
-
-    /* Injected CSS Code */
-</style>
-
-<script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.36456" type="text/javascript"></script>
-<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.36456" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.36456" type="text/javascript"></script>
-<script defer src="https://cdn01.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.36456" type="text/javascript"></script>
-<script defer src="https://cdn02.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.36456" type="text/javascript"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
-<script src="https://cdn03.jotfor.ms/js/vendor/imageinfo.js?v=3.3.36456" type="text/javascript"></script>
-<script src="https://cdn01.jotfor.ms/file-uploader/fileuploader.js?v=3.3.36456"></script>
-<script src="https://js.jotform.com/vendor/postMessage.js?3.3.36456" type="text/javascript"></script>
-<script src="https://js.jotform.com/WidgetsServer.js?v=1666075106781" type="text/javascript"></script>
-<script type="text/javascript">	JotForm.newDefaultTheme = true;
-	JotForm.extendsNewTheme = false;
-	JotForm.singleProduct = false;
-	JotForm.newPaymentUIForNewCreatedForms = true;
-	JotForm.newPaymentUI = true;
-	JotForm.clearFieldOnHide="disable";
-	JotForm.submitError="jumpToFirstError";
-
-	JotForm.init(function(){
-	/*INIT-START*/
-if (window.JotForm && JotForm.accessible) $('input_3').setAttribute('tabindex',0);
-      setTimeout(function() {
-          $('input_3').hint('What\'s your name?*');
-       }, 20);
-      JotForm.setPhoneMaskingValidator( 'input_9_full', '#### ### ###' );
-      setTimeout(function() {
-          $('input_10').hint('Whats your email?');
-       }, 20);
-if (window.JotForm && JotForm.accessible) $('input_7').setAttribute('tabindex',0);
-      JotForm.setCustomHint( 'input_7', 'Describe what kind of rubbish you want to remove' );
-      JotForm.alterTexts(undefined);
-      setTimeout(function() {
-          JotForm.initMultipleUploads();
-      }, 2);
-	/*INIT-END*/
-	});
-
-   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"Name","qid":"3","subLabel":"","text":"Name","type":"control_textbox"},null,null,null,{"description":"","name":"rubbishSituation","qid":"7","subLabel":"Or add some images below!","text":"Rubbish situation","type":"control_textarea"},{"description":"","name":"fileUpload","qid":"8","subLabel":"","text":"File Upload","type":"control_fileupload"},{"description":"","name":"phoneNumber","qid":"9","text":"Phone Number","type":"control_phone"},{"description":"","name":"email","qid":"10","subLabel":"","text":"Email","type":"control_email"},{"name":"typeA","qid":"11","text":"Get Page URL","type":"control_widget"},null,{"name":"typeA13","qid":"13","text":"User Agent String","type":"control_widget"}]);
-   setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"Name","qid":"3","subLabel":"","text":"Name","type":"control_textbox"},null,null,null,{"description":"","name":"rubbishSituation","qid":"7","subLabel":"Or add some images below!","text":"Rubbish situation","type":"control_textarea"},{"description":"","name":"fileUpload","qid":"8","subLabel":"","text":"File Upload","type":"control_fileupload"},{"description":"","name":"phoneNumber","qid":"9","text":"Phone Number","type":"control_phone"},{"description":"","name":"email","qid":"10","subLabel":"","text":"Email","type":"control_email"},{"name":"typeA","qid":"11","text":"Get Page URL","type":"control_widget"},null,{"name":"typeA13","qid":"13","text":"User Agent String","type":"control_widget"}]);}, 20); 
-</script>
-</head>
-<body>
-<form class="jotform-form" action="https://submit.jotform.com/submit/221447259955062/" method="post" enctype="multipart/form-data" name="form_221447259955062" id="221447259955062" accept-charset="utf-8" autocomplete="on">
-  <input type="hidden" name="formID" value="221447259955062" />
-  <input type="hidden" id="JWTContainer" value="" />
-  <input type="hidden" id="cardinalOrderNumber" value="" />
-  <div role="main" class="form-all">
-    <style>
-      .form-all:before { background: none;}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-US" class="supernova">
+  <head>
+    <script>
+      console.warn("Server Side Rendering => render-from: frontend");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="https://www.jotform.com/oembed/?format=json&amp;url=https%3A%2F%2Fform.jotform.com%2F221447259955062"
+      title="oEmbed Form"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="https://www.jotform.com/oembed/?format=xml&amp;url=https%3A%2F%2Fform.jotform.com%2F221447259955062"
+      title="oEmbed Form"
+    />
+    <meta property="og:title" content="Ridly Enquiry" />
+    <meta
+      property="og:url"
+      content="https://form.jotform.com/221447259955062"
+    />
+    <meta
+      property="og:description"
+      content="Please click the link to complete this form."
+    />
+    <meta name="slack-app-id" content="AHNMASS8M" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.jotfor.ms/assets/img/favicons/favicon-2021.svg"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.jotfor.ms/assets/img/favicons/favicon-2021.svg"
+    />
+    <link rel="canonical" href="https://form.jotform.com/221447259955062" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1"
+    />
+    <meta name="HandheldFriendly" content="true" />
+    <title>Ridly Enquiry</title>
+    <style type="text/css">
+      @media print {
+        .form-section {
+          display: inline !important;
+        }
+        .form-pagebreak {
+          display: none !important;
+        }
+        .form-section-closed {
+          height: auto !important;
+        }
+        .page-section {
+          position: initial !important;
+        }
+      }
     </style>
-    <ul class="form-section page-section">
-      <li class="form-line jf-required" data-type="control_textbox" id="id_3">
-        <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3">
-          Name
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_3" class="form-input-wide jf-required" data-layout="half">
-          <input type="text" id="input_3" name="q3_Name" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:500px" size="500" value="" placeholder="What&#x27;s your name?*" data-component="textbox" aria-labelledby="label_3" required="" />
-        </div>
-      </li>
-      <li class="form-line jf-required" data-type="control_phone" id="id_9" data-compound-hint="What&#039;s your phone number?*">
-        <label class="form-label form-label-top form-label-auto" id="label_9" for="input_9_full">
-          Phone Number
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_9" class="form-input-wide jf-required" data-layout="half">
-          <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="tel" id="input_9_full" name="q9_phoneNumber[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" data-defaultvalue="" autoComplete="section-input_9 tel-national" style="width:310px" data-masked="true" value="" placeholder="What&#x27;s your phone number?*" data-component="phone" aria-labelledby="label_9 sublabel_9_masked" required="" />
-            <label class="form-sub-label" for="input_9_full" id="sublabel_9_masked" style="min-height:13px" aria-hidden="false"> Please enter a valid phone number. </label>
-          </span>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_email" id="id_10">
-        <label class="form-label form-label-top form-label-auto" id="label_10" for="input_10"> Email </label>
-        <div id="cid_10" class="form-input-wide" data-layout="half">
-          <input type="email" id="input_10" name="q10_email" class="form-textbox validate[Email]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="Whats your email?" data-component="email" aria-labelledby="label_10" />
-        </div>
-      </li>
-      <li class="form-line" data-type="control_textarea" id="id_7">
-        <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7"> Rubbish situation </label>
-        <div id="cid_7" class="form-input-wide" data-layout="full">
-          <span class="form-sub-label-container" style="vertical-align:top">
-            <textarea id="input_7" class="form-textarea" name="q7_rubbishSituation" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_7 sublabel_input_7"></textarea>
-            <label class="form-sub-label" for="input_7" id="sublabel_input_7" style="min-height:13px" aria-hidden="false"> Or add some images below! </label>
-          </span>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_widget" id="id_11">
-        <div id="cid_11" class="form-input" data-layout="full">
-          <div style="width:100%;text-align:Left" data-component="widget-directEmbed">
-            <div class="direct-embed-widgets get-form-page-url-widget " data-type="direct-embed" style="width:1px;min-height:50px">
-              <input type='hidden' id='input_11' name='q11_typeA' class='form-hidden getParentURL'>
-              <script type='text/javascript' src='//widgets.jotform.io/getParentUrl/min/scripts.min.js'></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.36456"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.36456"
+    />
+    <style type="text/css" id="form-designer-style">
+      /* Injected CSS Code */
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+      *,
+      *:after,
+      *:before {
+        box-sizing: border-box;
+      }
+      .form-all {
+        font-family: "Inter", sans-serif;
+      }
+      .main .jotform-form {
+        width: 100%;
+        padding: 0 3%;
+      }
+      .form-all {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 752px;
+      }
+      .form-line-active {
+        background-color: #ffffff;
+      }
+      .form-all {
+        font-size: 14px;
+      }
+      .form-label {
+        position: relative;
+      }
+      .form-label:after {
+        content: "This label will not be seen on the form.";
+        background: #ffffe0;
+        position: absolute;
+        left: 0;
+        top: 110%;
+        width: 90px;
+        opacity: 0;
+        padding: 6px 9px 8px;
+        border-radius: 3px;
+        font-size: 10px;
+        font-weight: normal;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      .form-label:hover:after {
+        opacity: 0.8;
+      }
+      .supernova .form-label {
+        display: none;
+      }
+      .supernova .form-label:after {
+        display: none;
+      }
+      li.form-line {
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+      .form-line {
+        padding: 4px 0px;
+      }
+      .form-section {
+        padding: 0px 38px;
+      }
+      .form-textbox,
+      .form-textarea,
+      li[data-type="control_fileupload"] .qq-upload-button,
+      .signature-wrapper {
+        border-color: rgba(14, 127, 92, 0.5);
+      }
+      .form-textarea:hover,
+      .form-textbox:hover,
+      li[data-type="control_fileupload"] .qq-upload-button:hover,
+      .signature-wrapper:hover {
+        border-color: rgba(14, 127, 92, 0.5);
+        box-shadow: 0 0 0 2px rgba(14, 127, 92, 0.25);
+      }
+      .form-textarea:focus,
+      .form-textbox:focus,
+      li[data-type="control_fileupload"] .qq-upload-button:focus,
+      .signature-wrapper:focus {
+        border-color: #0e7f5c;
+        box-shadow: 0 0 0 3px rgba(14, 127, 92, 0.25);
+      }
+      .form-textbox,
+      .form-textarea,
+      .form-radio-other-input,
+      .form-checkbox-other-input,
+      .form-captcha input,
+      .form-spinner input {
+        background-color: #ffffff;
+      }
+      li[data-type="control_textbox"] div[data-layout="half"],
+      li[data-type="control_dropdown"] div[data-layout="half"],
+      li[data-type="control_email"] div[data-layout="half"],
+      li[data-type="control_number"] div[data-layout="half"],
+      li[data-type="control_phone"] div[data-layout="half"],
+      li[data-type="control_datetime"] div[data-layout="half"],
+      li[data-type="control_signature"] div[data-layout="half"] {
+        width: 100% !important;
+        max-width: 503px;
+      }
+      .form-label {
+        font-family: "Inter", sans-serif;
+      }
+      .form-line-column {
+        width: calc(50% - 8px);
+      }
+      .form-checkbox-item label,
+      .form-checkbox-item span,
+      .form-radio-item label,
+      .form-radio-item span {
+        color: #1a1a1a;
+      }
+      .form-radio-item,
+      .form-checkbox-item {
+        padding-bottom: 0px !important;
+      }
+      .form-radio-item:last-child,
+      .form-checkbox-item:last-child {
+        padding-bottom: 0;
+      }
+      .form-single-column .form-checkbox-item,
+      .form-single-column .form-radio-item {
+        width: 100%;
+      }
+      .form-checkbox-item .editor-container div,
+      .form-radio-item .editor-container div {
+        position: relative;
+      }
+      .form-checkbox-item .editor-container div:before,
+      .form-radio-item .editor-container div:before {
+        display: inline-block;
+        vertical-align: middle;
+        left: 0;
+        width: 20px;
+        height: 20px;
+      }
+      .submit-button {
+        font-size: 14px;
+        font-weight: normal;
+        width: 112px;
+        font-family: "Inter", sans-serif;
+        border: none;
+        border-width: 0px;
+        border-style: solid;
+        border-color: #0e7f5c;
+      }
+      .submit-button {
+        min-width: 180px;
+      }
+      .form-buttons-wrapper,
+      .form-submit-clear-wrapper {
+        justify-content: flex-start;
+      }
+      .form-all .form-pagebreak-back,
+      .form-all .form-pagebreak-next {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+      }
+      .form-all .form-pagebreak-back,
+      .form-all .form-pagebreak-next {
+        min-width: 128px;
+      }
+      li[data-type="control_image"] div {
+        text-align: left;
+      }
+      li[data-type="control_image"] img {
+        border: none;
+        border-width: 0px !important;
+        border-style: solid !important;
+        border-color: false !important;
+      }
+      .supernova {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center top;
+        background-repeat: repeat;
+      }
+      .supernova {
+        background-image: none;
+      }
+      #stage {
+        background-image: none;
+      }
+      /* | */
+      .form-all {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center top;
+        background-repeat: repeat;
+      }
+      .form-header-group {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center top;
+      }
+      .header-large h1.form-header {
+        font-size: 2em;
+      }
+      .header-large h2.form-header {
+        font-size: 1.5em;
+      }
+      .header-large h3.form-header {
+        font-size: 1.17em;
+      }
+      .header-large h1 + .form-subHeader {
+        font-size: 1em;
+      }
+      .header-large h2 + .form-subHeader {
+        font-size: 0.875em;
+      }
+      .header-large h3 + .form-subHeader {
+        font-size: 0.75em;
+      }
+      .header-default h1.form-header {
+        font-size: 2em;
+      }
+      .header-default h2.form-header {
+        font-size: 1.5em;
+      }
+      .header-default h3.form-header {
+        font-size: 1.17em;
+      }
+      .header-default h1 + .form-subHeader {
+        font-size: 1em;
+      }
+      .header-default h2 + .form-subHeader {
+        font-size: 0.875em;
+      }
+      .header-default h3 + .form-subHeader {
+        font-size: 0.75em;
+      }
+      .header-small h1.form-header {
+        font-size: 2em;
+      }
+      .header-small h2.form-header {
+        font-size: 1.5em;
+      }
+      .header-small h3.form-header {
+        font-size: 1.17em;
+      }
+      .header-small h1 + .form-subHeader {
+        font-size: 1em;
+      }
+      .header-small h2 + .form-subHeader {
+        font-size: 0.875em;
+      }
+      .header-small h3 + .form-subHeader {
+        font-size: 0.75em;
+      }
+      .form-header-group {
+        text-align: left;
+      }
+      .form-header-group {
+        font-family: "Inter", sans-serif;
+      }
+      div.form-header-group.header-large {
+        margin: 0px -38px;
+      }
+      div.form-header-group.header-large {
+        padding: 40px 52px;
+      }
+      .form-header-group .form-header,
+      .form-header-group .form-subHeader {
+        color: 0;
+      }
+      .form-line-error {
+        overflow: hidden;
+        -webkit-transition-property: none;
+        -moz-transition-property: none;
+        -ms-transition-property: none;
+        -o-transition-property: none;
+        transition-property: none;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -ms-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease;
+        background-color: #ffffff;
+      }
+      .form-line-error .form-error-message {
+        background-color: #ea9697;
+        clear: both;
+        float: none;
+      }
+      .form-line-error .form-error-message .form-error-arrow {
+        border-bottom-color: #ea9697;
+      }
+      .form-line-error input:not(#coupon-input),
+      .form-line-error textarea,
+      .form-line-error .form-validation-error {
+        border: 1px solid #ea9697;
+        box-shadow: 0 0 3px #ea9697;
+      }
+      .supernova {
+        background-color: #ffffff;
+      }
+      .supernova body {
+        background-color: transparent;
+      }
+      .supernova .form-all,
+      .form-all {
+        background-color: #ffffff;
+      }
+      .form-textbox,
+      .form-textarea,
+      .form-radio-other-input,
+      .form-checkbox-other-input,
+      .form-captcha input,
+      .form-spinner input {
+        background-color: #ffffff;
+      }
+      .form-matrix-table tr {
+        border-color: #e6e6e6;
+      }
+      .form-matrix-table tr:nth-child(2n) {
+        background-color: #f2f2f2;
+      }
+      .form-all {
+        color: #000000;
+      }
+      .form-label-top,
+      .form-label-left,
+      .form-label-right,
+      .form-html {
+        color: #000000;
+      }
+      .form-line-error {
+        overflow: hidden;
+        -webkit-transition-property: none;
+        -moz-transition-property: none;
+        -ms-transition-property: none;
+        -o-transition-property: none;
+        transition-property: none;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-timing-function: ease;
+        -ms-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease;
+        background-color: #ffffff;
+      }
+      .form-header-group .form-header,
+      .form-header-group .form-subHeader {
+        color: 0;
+      }
+
+      /*__INSPECT_SEPERATOR__*/
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+      .form-all * {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .error-navigation-container
+        .error-navigation-inner
+        .error-navigation-message {
+        opacity: 0;
+        display: none !important;
+      }
+
+      .error-navigation-next-button .error-navigation-done-button {
+        opacity: 0;
+        display: none !important;
+      }
+
+      .error-navigation-container {
+        display: none;
+      }
+
+      .form-error-message {
+        padding: 0px !important;
+        background-color: #ffffff !important;
+        color: #f23a3c !important;
+      }
+
+      .error-navigation-message {
+        font-size: 11px !important;
+      }
+
+      .form-header-group.header-large {
+        display: none;
+      }
+
+      .form-section.page-section {
+        box-shadow: none;
+        padding: 0px;
+        border: 0px;
+        margin: 0;
+      }
+
+      .form-textbox {
+        border-width: 0 0 1px !important;
+        padding-left: 0px !important;
+        width: 100% !important;
+      }
+
+      .form-textarea.custom-hint-group {
+        border-style: solid;
+        border-width: 0 0 1px;
+        height: 80px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+
+      .form-textarea.custom-hint-group:focus,
+      .form-textarea.custom-hint-group:hover {
+        box-shadow: none !important;
+        border-color: rgba(14, 127, 92, 0.5);
+      }
+
+      .form-validation-error {
+        border-width: 0 0 1px !important;
+        box-shadow: None !important;
+      }
+
+      .qq-upload-button.None {
+        border: solid 1px #ccc;
+      }
+
+      .form-submit-button.submit-button.jf-form-buttons.jsTest-submitField {
+        padding: 16px 32px;
+        border-radius: 100px;
+        background-color: #0b5d51;
+        font-size: 18px;
+        font-weight: 600;
+        min-width: 100% !important;
+        margin-left: 0px !important;
+      }
+
+      .form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:hover {
+        background-color: #0e7f5c;
+      }
+
+      #cid_2 div.form-buttons-wrapper {
+        width: 100%;
+        margin-left: 0px;
+        border: none;
+        padding: 12px 0px;
+      }
+
+      .form-all {
+        box-shadow: none;
+      }
+
+      div.qq-upload-button {
+        height: 80px !important;
+        font-size: 16px !important;
+        padding: 16px 24px !important;
+      }
+
+      .qq-upload-button::before {
+        display: none;
+      }
+
+      #cid_8 div.jfUpload-heading {
+        font-size: 11px;
+        color: #0e7f5c;
+        opacity: 0.9;
+      }
+
+      .qq-upload-file {
+        background-color: #ddeee5 !important;
+      }
+
+      .qq-upload-size {
+        background-color: #ddeee5 !important;
+      }
+
+      .qq-upload-img-container {
+        background-color: #ddeee5 !important;
+      }
+
+      .qq-upload-delete {
+        background-color: #ddeee5 !important;
+        color: #55a58c;
+      }
+
+      .qq-upload-delete:hover {
+        color: #0e7f5c;
+      }
+
+      .qq-upload-failed-text {
+        background-color: #ddeee5 !important;
+      }
+
+      .qq-upload-cancel {
+        background-color: #ddeee5 !important;
+      }
+
+      .form-textbox:hover,
+      .form-textbox:focus {
+        box-shadow: none !important;
+        border-width: 0 0 1px !important;
+        border-color: rgba(14, 127, 92, 0.5);
+        padding-left: 0px !important;
+        width: 100% !important;
+      }
+
+      #text_12 {
+        margin-top: -8px;
+      }
+
+      .sub-label {
+        padding: 0px;
+      }
+
+      .qq-upload-drop-area {
+        border: 1px solid #c3cad8 !important;
+        height: 80px !important;
+        font-size: 16px !important;
+      }
+
+      #cid_8 div.qq-upload-button {
+      }
+
+      .form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:hover {
+        background-color: #0e7f5c;
+      }
+
+      @media (min-width: 664px) {
+        .form-submit-button.submit-button.jf-form-buttons.jsTest-submitField {
+          width: auto !important;
+        }
+      }
+
+      #input_2 {
+      }
+
+      .qq-upload-list > li {
+        margin-top: 7px !important;
+        height: 32px !important;
+        line-height: 32px !important;
+        font-size: 12px !important;
+      }
+
+      .qq-upload-img-container {
+        padding: 6px !important;
+      }
+
+      .qq-upload-img-container > img {
+        width: 20px !important;
+        height: 20px !important;
+      }
+
+      /* Injected CSS Code */
+    </style>
+
+    <script
+      src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.36456"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.36456"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdn03.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.36456"
+      type="text/javascript"
+    ></script>
+    <script
+      defer
+      src="https://cdn01.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.36456"
+      type="text/javascript"
+    ></script>
+    <script
+      defer
+      src="https://cdn02.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.36456"
+      type="text/javascript"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"
+    ></script>
+    <script
+      src="https://cdn03.jotfor.ms/js/vendor/imageinfo.js?v=3.3.36456"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn01.jotfor.ms/file-uploader/fileuploader.js?v=3.3.36456"></script>
+    <script
+      src="https://js.jotform.com/vendor/postMessage.js?3.3.36456"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://js.jotform.com/WidgetsServer.js?v=1666075106781"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      JotForm.newDefaultTheme = true;
+      JotForm.extendsNewTheme = false;
+      JotForm.singleProduct = false;
+      JotForm.newPaymentUIForNewCreatedForms = true;
+      JotForm.newPaymentUI = true;
+      JotForm.clearFieldOnHide = "disable";
+      JotForm.submitError = "jumpToFirstError";
+
+      JotForm.init(function () {
+        /*INIT-START*/
+        if (window.JotForm && JotForm.accessible)
+          $("input_3").setAttribute("tabindex", 0);
+        setTimeout(function () {
+          $("input_3").hint("What's your name?*");
+        }, 20);
+        JotForm.setPhoneMaskingValidator("input_9_full", "#### ### ###");
+        setTimeout(function () {
+          $("input_10").hint("Whats your email?");
+        }, 20);
+        if (window.JotForm && JotForm.accessible)
+          $("input_7").setAttribute("tabindex", 0);
+        JotForm.setCustomHint(
+          "input_7",
+          "Describe what kind of rubbish you want to remove"
+        );
+        JotForm.alterTexts(undefined);
+        setTimeout(function () {
+          JotForm.initMultipleUploads();
+        }, 2);
+        /*INIT-END*/
+      });
+
+      JotForm.prepareCalculationsOnTheFly([
+        null,
+        null,
+        { name: "submit2", qid: "2", text: "Submit", type: "control_button" },
+        {
+          description: "",
+          name: "Name",
+          qid: "3",
+          subLabel: "",
+          text: "Name",
+          type: "control_textbox",
+        },
+        null,
+        null,
+        null,
+        {
+          description: "",
+          name: "rubbishSituation",
+          qid: "7",
+          subLabel: "Or add some images below!",
+          text: "Rubbish situation",
+          type: "control_textarea",
+        },
+        {
+          description: "",
+          name: "fileUpload",
+          qid: "8",
+          subLabel: "",
+          text: "File Upload",
+          type: "control_fileupload",
+        },
+        {
+          description: "",
+          name: "phoneNumber",
+          qid: "9",
+          text: "Phone Number",
+          type: "control_phone",
+        },
+        {
+          description: "",
+          name: "email",
+          qid: "10",
+          subLabel: "",
+          text: "Email",
+          type: "control_email",
+        },
+        {
+          name: "typeA",
+          qid: "11",
+          text: "Get Page URL",
+          type: "control_widget",
+        },
+        null,
+        {
+          name: "typeA13",
+          qid: "13",
+          text: "User Agent String",
+          type: "control_widget",
+        },
+      ]);
+      setTimeout(function () {
+        JotForm.paymentExtrasOnTheFly([
+          null,
+          null,
+          { name: "submit2", qid: "2", text: "Submit", type: "control_button" },
+          {
+            description: "",
+            name: "Name",
+            qid: "3",
+            subLabel: "",
+            text: "Name",
+            type: "control_textbox",
+          },
+          null,
+          null,
+          null,
+          {
+            description: "",
+            name: "rubbishSituation",
+            qid: "7",
+            subLabel: "Or add some images below!",
+            text: "Rubbish situation",
+            type: "control_textarea",
+          },
+          {
+            description: "",
+            name: "fileUpload",
+            qid: "8",
+            subLabel: "",
+            text: "File Upload",
+            type: "control_fileupload",
+          },
+          {
+            description: "",
+            name: "phoneNumber",
+            qid: "9",
+            text: "Phone Number",
+            type: "control_phone",
+          },
+          {
+            description: "",
+            name: "email",
+            qid: "10",
+            subLabel: "",
+            text: "Email",
+            type: "control_email",
+          },
+          {
+            name: "typeA",
+            qid: "11",
+            text: "Get Page URL",
+            type: "control_widget",
+          },
+          null,
+          {
+            name: "typeA13",
+            qid: "13",
+            text: "User Agent String",
+            type: "control_widget",
+          },
+        ]);
+      }, 20);
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PQKVPW2");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <form
+      class="jotform-form"
+      action="https://submit.jotform.com/submit/221447259955062/"
+      method="post"
+      enctype="multipart/form-data"
+      name="form_221447259955062"
+      id="221447259955062"
+      accept-charset="utf-8"
+      autocomplete="on"
+    >
+      <input type="hidden" name="formID" value="221447259955062" />
+      <input type="hidden" id="JWTContainer" value="" />
+      <input type="hidden" id="cardinalOrderNumber" value="" />
+      <div role="main" class="form-all">
+        <style>
+          .form-all:before {
+            background: none;
+          }
+        </style>
+        <ul class="form-section page-section">
+          <li
+            class="form-line jf-required"
+            data-type="control_textbox"
+            id="id_3"
+          >
+            <label
+              class="form-label form-label-top form-label-auto"
+              id="label_3"
+              for="input_3"
+            >
+              Name
+              <span class="form-required"> * </span>
+            </label>
+            <div
+              id="cid_3"
+              class="form-input-wide jf-required"
+              data-layout="half"
+            >
+              <input
+                type="text"
+                id="input_3"
+                name="q3_Name"
+                data-type="input-textbox"
+                class="form-textbox validate[required]"
+                data-defaultvalue=""
+                style="width: 500px"
+                size="500"
+                value=""
+                placeholder="What&#x27;s your name?*"
+                data-component="textbox"
+                aria-labelledby="label_3"
+                required=""
+              />
             </div>
-          </div>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_widget" id="id_13">
-        <div id="cid_13" class="form-input-wide" data-layout="full">
-          <div style="width:100%;text-align:Left" data-component="widget-directEmbed">
-            <div class="direct-embed-widgets get-user-agent-widget " data-type="direct-embed" style="width:50px;min-height:50px">
-              <input type="hidden" id="input_13" name="q13_typeA13" class="form-hidden getUserAgent">
-              <script type="text/javascript" src="//widgets.jotform.io/getUserAgent/main.js"></script>
+          </li>
+          <li
+            class="form-line jf-required"
+            data-type="control_phone"
+            id="id_9"
+            data-compound-hint="What&#039;s your phone number?*"
+          >
+            <label
+              class="form-label form-label-top form-label-auto"
+              id="label_9"
+              for="input_9_full"
+            >
+              Phone Number
+              <span class="form-required"> * </span>
+            </label>
+            <div
+              id="cid_9"
+              class="form-input-wide jf-required"
+              data-layout="half"
+            >
+              <span
+                class="form-sub-label-container"
+                style="vertical-align: top"
+              >
+                <input
+                  type="tel"
+                  id="input_9_full"
+                  name="q9_phoneNumber[full]"
+                  data-type="mask-number"
+                  class="mask-phone-number form-textbox validate[required, Fill Mask]"
+                  data-defaultvalue=""
+                  autocomplete="section-input_9 tel-national"
+                  style="width: 310px"
+                  data-masked="true"
+                  value=""
+                  placeholder="What&#x27;s your phone number?*"
+                  data-component="phone"
+                  aria-labelledby="label_9 sublabel_9_masked"
+                  required=""
+                />
+                <label
+                  class="form-sub-label"
+                  for="input_9_full"
+                  id="sublabel_9_masked"
+                  style="min-height: 13px"
+                  aria-hidden="false"
+                >
+                  Please enter a valid phone number.
+                </label>
+              </span>
             </div>
-          </div>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_fileupload" id="id_8">
-        <label class="form-label form-label-top" id="label_8" for="input_8"> File Upload </label>
-        <div id="cid_8" class="form-input-wide" data-layout="full">
-          <div class="jfQuestion-fields" data-wrapper-react="true">
-            <div class="jfField isFilled">
-              <div class="jfUpload-wrapper">
-                <div class="jfUpload-container">
-                  <div class="jfUpload-text-container">
-                    <div class="jfUpload-icon forDesktop">
-                      <span class="iconSvg  dhtupload ">
-                        function SvgDhtupload(props) { return /* @__PURE__ */ react.createElement("svg", dhtupload_svg_extends({ width: 54, height: 47, xmlns: "http://www.w3.org/2000/svg" }, props), dhtupload_svg_path || (dhtupload_svg_path = /* @__PURE__ */ react.createElement("path", { d: "M40.213 10.172c1.897.21 3.68.738 5.35 1.58a15.748 15.748 0 014.374 3.242 15.065 15.065 0 012.951 4.533c.72 1.704 1.08 3.522 1.08 5.455 0 1.827-.28 3.654-.843 5.48-.562 1.828-1.379 3.47-2.45 4.929A13.39 13.39 0 0146.669 39c-1.599.948-3.452 1.458-5.56 1.528H37.26a1.62 1.62 0 01-1.185-.5 1.62 1.62 0 01-.501-1.186c0-.457.167-.852.5-1.186.334-.334.73-.5 1.186-.5h3.848c1.44 0 2.75-.37 3.926-1.108a10.851 10.851 0 003.03-2.846 13.53 13.53 0 001.95-3.9 14.23 14.23 0 00.686-4.321c0-1.582-.316-3.066-.949-4.454a11.623 11.623 0 00-2.582-3.636 12.857 12.857 0 00-3.742-2.478 11.054 11.054 0 00-4.48-.922l-1.212-.053-.37-1.159c-.878-2.81-2.292-4.998-4.242-6.562-1.95-1.563-4.594-2.345-7.932-2.345-2.108 0-4.005.36-5.692 1.08-1.686.72-3.136 1.722-4.348 3.005-1.212 1.282-2.143 2.81-2.793 4.585-.65 1.774-.975 3.68-.975 5.718h.053l.105 1.581-1.528.264c-1.863.316-3.444 1.317-4.744 3.004-1.3 1.686-1.95 3.584-1.95 5.692 0 2.39.8 4.462 2.398 6.219 1.599 1.757 3.488 2.635 5.666 2.635h4.849c.492 0 .896.167 1.212.5.316.335.474.73.474 1.187 0 .456-.158.852-.474 1.185-.316.334-.72.501-1.212.501h-4.849a10.08 10.08 0 01-4.374-.975 11.673 11.673 0 01-3.61-2.661 13.173 13.173 0 01-2.478-3.9A12.073 12.073 0 010 28.301c0-2.706.755-5.148 2.266-7.326 1.511-2.178 3.444-3.636 5.798-4.374.14-2.354.658-4.542 1.554-6.562.896-2.02 2.091-3.777 3.584-5.27 1.494-1.494 3.25-2.662 5.27-3.505C20.493.422 22.733 0 25.193 0c1.898 0 3.637.237 5.218.711 1.581.475 3.004 1.151 4.269 2.03a13.518 13.518 0 013.268 3.215 18.628 18.628 0 012.266 4.216zm-11.964 13.44l6.22 6.85c.245.247.368.537.368.87 0 .334-.123.642-.369.923l-.421.263c-.211.246-.484.343-.817.29a1.544 1.544 0 01-.87-.448l-3.69-4.11v16.97c0 .492-.166.896-.5 1.212-.334.316-.729.474-1.186.474-.492 0-.896-.158-1.212-.474-.316-.316-.474-.72-.474-1.212V28.25l-3.584 4.005a1.544 1.544 0 01-.87.448.959.959 0 01-.87-.29l-.42-.264c-.247-.28-.37-.588-.37-.922 0-.334.123-.624.37-.87l6.113-6.746v-.052l.421-.422a.804.804 0 01.396-.29c.158-.053.307-.079.448-.079.175 0 .333.026.474.079.14.053.281.15.422.29l.421.422v.052z", fill: "none" }))); }
-                      </span>
-                    </div>
-                  </div>
-                  <div class="jfUpload-button-container">
-                    <div class="jfUpload-button" aria-hidden="true" tabindex="0" style="display:none" data-version="v2">
-                      Upload Image/s
-                      <div class="jfUpload-heading forDesktop">
-                        Drag and drop files here
-                      </div>
-                      <div class="jfUpload-heading forMobile">
-                        Choose a file
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="jfUpload-files-container">
-                  <input type="file" id="input_8" name="q8_fileUpload[]" multiple="" class="form-submit-button-simple_white form-upload-multiple" data-imagevalidate="yes" data-file-accept="jpg, jpeg, png" data-file-maxsize="5000" data-file-minsize="0" data-file-limit="6" data-component="fileupload" aria-label="Upload Image/s" />
+          </li>
+          <li class="form-line" data-type="control_email" id="id_10">
+            <label
+              class="form-label form-label-top form-label-auto"
+              id="label_10"
+              for="input_10"
+            >
+              Email
+            </label>
+            <div id="cid_10" class="form-input-wide" data-layout="half">
+              <input
+                type="email"
+                id="input_10"
+                name="q10_email"
+                class="form-textbox validate[Email]"
+                data-defaultvalue=""
+                style="width: 310px"
+                size="310"
+                value=""
+                placeholder="Whats your email?"
+                data-component="email"
+                aria-labelledby="label_10"
+              />
+            </div>
+          </li>
+          <li class="form-line" data-type="control_textarea" id="id_7">
+            <label
+              class="form-label form-label-top form-label-auto"
+              id="label_7"
+              for="input_7"
+            >
+              Rubbish situation
+            </label>
+            <div id="cid_7" class="form-input-wide" data-layout="full">
+              <span
+                class="form-sub-label-container"
+                style="vertical-align: top"
+              >
+                <textarea
+                  id="input_7"
+                  class="form-textarea"
+                  name="q7_rubbishSituation"
+                  style="width: 648px; height: 163px"
+                  data-component="textarea"
+                  aria-labelledby="label_7 sublabel_input_7"
+                ></textarea>
+                <label
+                  class="form-sub-label"
+                  for="input_7"
+                  id="sublabel_input_7"
+                  style="min-height: 13px"
+                  aria-hidden="false"
+                >
+                  Or add some images below!
+                </label>
+              </span>
+            </div>
+          </li>
+          <li class="form-line" data-type="control_widget" id="id_11">
+            <div id="cid_11" class="form-input" data-layout="full">
+              <div
+                style="width: 100%; text-align: Left"
+                data-component="widget-directEmbed"
+              >
+                <div
+                  class="direct-embed-widgets get-form-page-url-widget"
+                  data-type="direct-embed"
+                  style="width: 1px; min-height: 50px"
+                >
+                  <input
+                    type="hidden"
+                    id="input_11"
+                    name="q11_typeA"
+                    class="form-hidden getParentURL"
+                  />
+                  <script
+                    type="text/javascript"
+                    src="//widgets.jotform.io/getParentUrl/min/scripts.min.js"
+                  ></script>
                 </div>
               </div>
-              <div data-wrapper-react="true">
+            </div>
+          </li>
+          <li class="form-line" data-type="control_widget" id="id_13">
+            <div id="cid_13" class="form-input-wide" data-layout="full">
+              <div
+                style="width: 100%; text-align: Left"
+                data-component="widget-directEmbed"
+              >
+                <div
+                  class="direct-embed-widgets get-user-agent-widget"
+                  data-type="direct-embed"
+                  style="width: 50px; min-height: 50px"
+                >
+                  <input
+                    type="hidden"
+                    id="input_13"
+                    name="q13_typeA13"
+                    class="form-hidden getUserAgent"
+                  />
+                  <script
+                    type="text/javascript"
+                    src="//widgets.jotform.io/getUserAgent/main.js"
+                  ></script>
+                </div>
               </div>
             </div>
-            <span style="display:none" class="cancelText">
-              Cancel
-            </span>
-            <span style="display:none" class="ofText">
-              of
-            </span>
-          </div>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_button" id="id_2">
-        <div id="cid_2" class="form-input-wide" data-layout="full">
-          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
-            <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
-              Submit
-            </button>
-          </div>
-        </div>
-      </li>
-      <li style="display:none">
-        Should be Empty:
-        <input type="text" name="website" value="" />
-      </li>
-    </ul>
-  </div>
-  <script>
-  JotForm.showJotFormPowered = "0";
-  </script>
-  <script>
-  JotForm.poweredByText = "Powered by Jotform";
-  </script>
-  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="221447259955062" />
-  <script type="text/javascript">
-  var all_spc = document.querySelectorAll("form[id='221447259955062'] .si" + "mple" + "_spc");
-for (var i = 0; i < all_spc.length; i++)
-{
-  all_spc[i].value = "221447259955062-221447259955062";
-}
-  </script>
-</form></body>
+          </li>
+          <li class="form-line" data-type="control_fileupload" id="id_8">
+            <label class="form-label form-label-top" id="label_8" for="input_8">
+              File Upload
+            </label>
+            <div id="cid_8" class="form-input-wide" data-layout="full">
+              <div class="jfQuestion-fields" data-wrapper-react="true">
+                <div class="jfField isFilled">
+                  <div class="jfUpload-wrapper">
+                    <div class="jfUpload-container">
+                      <div class="jfUpload-text-container">
+                        <div class="jfUpload-icon forDesktop">
+                          <span class="iconSvg dhtupload">
+                            function SvgDhtupload(props) { return /* @__PURE__
+                            */ react.createElement("svg",
+                            dhtupload_svg_extends({ width: 54, height: 47,
+                            xmlns: "http://www.w3.org/2000/svg" }, props),
+                            dhtupload_svg_path || (dhtupload_svg_path = /*
+                            @__PURE__ */ react.createElement("path", { d:
+                            "M40.213 10.172c1.897.21 3.68.738 5.35 1.58a15.748
+                            15.748 0 014.374 3.242 15.065 15.065 0 012.951
+                            4.533c.72 1.704 1.08 3.522 1.08 5.455 0 1.827-.28
+                            3.654-.843 5.48-.562 1.828-1.379 3.47-2.45
+                            4.929A13.39 13.39 0 0146.669 39c-1.599.948-3.452
+                            1.458-5.56 1.528H37.26a1.62 1.62 0 01-1.185-.5 1.62
+                            1.62 0
+                            01-.501-1.186c0-.457.167-.852.5-1.186.334-.334.73-.5
+                            1.186-.5h3.848c1.44 0 2.75-.37 3.926-1.108a10.851
+                            10.851 0 003.03-2.846 13.53 13.53 0 001.95-3.9 14.23
+                            14.23 0
+                            00.686-4.321c0-1.582-.316-3.066-.949-4.454a11.623
+                            11.623 0 00-2.582-3.636 12.857 12.857 0
+                            00-3.742-2.478 11.054 11.054 0
+                            00-4.48-.922l-1.212-.053-.37-1.159c-.878-2.81-2.292-4.998-4.242-6.562-1.95-1.563-4.594-2.345-7.932-2.345-2.108
+                            0-4.005.36-5.692 1.08-1.686.72-3.136 1.722-4.348
+                            3.005-1.212 1.282-2.143 2.81-2.793 4.585-.65
+                            1.774-.975 3.68-.975 5.718h.053l.105
+                            1.581-1.528.264c-1.863.316-3.444 1.317-4.744
+                            3.004-1.3 1.686-1.95 3.584-1.95 5.692 0 2.39.8 4.462
+                            2.398 6.219 1.599 1.757 3.488 2.635 5.666
+                            2.635h4.849c.492 0 .896.167
+                            1.212.5.316.335.474.73.474 1.187 0
+                            .456-.158.852-.474
+                            1.185-.316.334-.72.501-1.212.501h-4.849a10.08 10.08
+                            0 01-4.374-.975 11.673 11.673 0 01-3.61-2.661 13.173
+                            13.173 0 01-2.478-3.9A12.073 12.073 0 010
+                            28.301c0-2.706.755-5.148 2.266-7.326 1.511-2.178
+                            3.444-3.636 5.798-4.374.14-2.354.658-4.542
+                            1.554-6.562.896-2.02 2.091-3.777 3.584-5.27
+                            1.494-1.494 3.25-2.662 5.27-3.505C20.493.422 22.733
+                            0 25.193 0c1.898 0 3.637.237 5.218.711 1.581.475
+                            3.004 1.151 4.269 2.03a13.518 13.518 0 013.268 3.215
+                            18.628 18.628 0 012.266 4.216zm-11.964 13.44l6.22
+                            6.85c.245.247.368.537.368.87 0
+                            .334-.123.642-.369.923l-.421.263c-.211.246-.484.343-.817.29a1.544
+                            1.544 0 01-.87-.448l-3.69-4.11v16.97c0
+                            .492-.166.896-.5
+                            1.212-.334.316-.729.474-1.186.474-.492
+                            0-.896-.158-1.212-.474-.316-.316-.474-.72-.474-1.212V28.25l-3.584
+                            4.005a1.544 1.544 0 01-.87.448.959.959 0
+                            01-.87-.29l-.42-.264c-.247-.28-.37-.588-.37-.922
+                            0-.334.123-.624.37-.87l6.113-6.746v-.052l.421-.422a.804.804
+                            0 01.396-.29c.158-.053.307-.079.448-.079.175 0
+                            .333.026.474.079.14.053.281.15.422.29l.421.422v.052z",
+                            fill: "none" }))); }
+                          </span>
+                        </div>
+                      </div>
+                      <div class="jfUpload-button-container">
+                        <div
+                          class="jfUpload-button"
+                          aria-hidden="true"
+                          tabindex="0"
+                          style="display: none"
+                          data-version="v2"
+                        >
+                          Upload Image/s
+                          <div class="jfUpload-heading forDesktop">
+                            Drag and drop files here
+                          </div>
+                          <div class="jfUpload-heading forMobile">
+                            Choose a file
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="jfUpload-files-container">
+                      <input
+                        type="file"
+                        id="input_8"
+                        name="q8_fileUpload[]"
+                        multiple=""
+                        class="form-submit-button-simple_white form-upload-multiple"
+                        data-imagevalidate="yes"
+                        data-file-accept="jpg, jpeg, png"
+                        data-file-maxsize="5000"
+                        data-file-minsize="0"
+                        data-file-limit="6"
+                        data-component="fileupload"
+                        aria-label="Upload Image/s"
+                      />
+                    </div>
+                  </div>
+                  <div data-wrapper-react="true"></div>
+                </div>
+                <span style="display: none" class="cancelText"> Cancel </span>
+                <span style="display: none" class="ofText"> of </span>
+              </div>
+            </div>
+          </li>
+          <li class="form-line" data-type="control_button" id="id_2">
+            <div id="cid_2" class="form-input-wide" data-layout="full">
+              <div
+                data-align="auto"
+                class="form-buttons-wrapper form-buttons-auto jsTest-button-wrapperField"
+              >
+                <button
+                  id="input_2"
+                  type="submit"
+                  class="form-submit-button submit-button jf-form-buttons jsTest-submitField"
+                  data-component="button"
+                  data-content=""
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </li>
+          <li style="display: none">
+            Should be Empty:
+            <input type="text" name="website" value="" />
+          </li>
+        </ul>
+      </div>
+      <script>
+        JotForm.showJotFormPowered = "0";
+      </script>
+      <script>
+        JotForm.poweredByText = "Powered by Jotform";
+      </script>
+      <input
+        type="hidden"
+        class="simple_spc"
+        id="simple_spc"
+        name="simple_spc"
+        value="221447259955062"
+      />
+      <script type="text/javascript">
+        var all_spc = document.querySelectorAll(
+          "form[id='221447259955062'] .si" + "mple" + "_spc"
+        );
+        for (var i = 0; i < all_spc.length; i++) {
+          all_spc[i].value = "221447259955062-221447259955062";
+        }
+      </script>
+    </form>
+  </body>
 </html>
-<script type="text/javascript">JotForm.ownerView=true;</script><script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.36456"></script>
+<script type="text/javascript">
+  JotForm.ownerView = true;
+</script>
+<script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.36456"></script>
 <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.36456"></script>
